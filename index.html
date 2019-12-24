@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Diploma CGPA and Grade Calculator</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Project Info Start -->
+    <div class="project-info">
+        <div class="container">
+            <h1>CGPA Calculator</h1>
+            <p>Calculate your final CGPA and grade according to any BTEB diploma regulations. You will also get your grade of each semester.</p>
+        </div>
+
+    </div>
+    <!-- Project Info End -->
+
+    <!-- Main Calucator Area Start -->
+    <div class="calculator container">
+
+        <!-- //Calculator Options -->
+        <div class="calculator-options">
+            <h3>Probidhan</h3> <button class="active">2018</button><button>2010</button><button>2005</button>
+        </div>
+
+        <!-- //Calculator Body -->
+        <div class="calculator-body">
+            <form>
+                <!-- Single Input Start -->
+                <div class="calculator-input">
+                    <label for="sem_1">1st Semester</label>
+                    <input type="text" id="sem_1">
+                    <input disabled id="sem_1_grade" class="show-semester-grade" value="?" type="text">
+                </div>
+                <!-- Single Input End -->
+
+                <!-- Single Input Start -->
+                <div class="calculator-input">
+                    <label for="sem_2">2nd Semester</label>
+                    <input type="text" id="sem_2">
+                    <input disabled id="sem_2_grade" class="show-semester-grade" value="?" type="text">
+                </div>
+                <!-- Single Input End -->
+
+                <!-- Single Input Start -->
+                <div class="calculator-input">
+                    <label for="sem_3">3rd Semester</label>
+                    <input type="text" id="sem_3">
+                    <input disabled id="sem_3_grade" class="show-semester-grade" value="?" type="text">
+                </div>
+                <!-- Single Input End -->
+
+                <!-- Single Input Start -->
+                <div class="calculator-input">
+                    <label for="sem_4">4th Semester</label>
+                    <input type="text" id="sem_4">
+                    <input disabled id="sem_4_grade" class="show-semester-grade" value="?" type="text">
+                </div>
+                <!-- Single Input End -->
+
+                <!-- Single Input Start -->
+                <div class="calculator-input">
+                    <label for="sem_5">5th Semester</label>
+                    <input type="text" id="sem_5">
+                    <input disabled id="sem_5_grade" class="show-semester-grade" value="?" type="text">
+                </div>
+                <!-- Single Input End -->
+
+                <!-- Single Input Start -->
+                <div class="calculator-input">
+                    <label for="sem_6">6th Semester</label>
+                    <input type="text" id="sem_6">
+                    <input disabled id="sem_6_grade" class="show-semester-grade" value="?" type="text">
+                </div>
+                <!-- Single Input End -->
+
+                <!-- Single Input Start -->
+                <div class="calculator-input">
+                    <label for="sem_7">7th Semester</label>
+                    <input type="text" id="sem_7">
+                    <input disabled id="sem_7_grade" class="show-semester-grade" value="?" type="text">
+                </div>
+                <!-- Single Input End -->
+
+                <!-- Single Input Start -->
+                <div class="calculator-input">
+                    <label for="sem_8">8th Semester</label>
+                    <input type="text" id="sem_8">
+                    <input disabled id="sem_8_grade" class="show-semester-grade" value="?" type="text">
+                </div>
+                <!-- Single Input End -->
+            </form>
+
+            <!-- // Calculator Result -->
+
+            <div class="calculator-result">
+                <h3>CGPA : <span class="final_cgpa"> ? </span> , GRADE : <span class="final_grade"> ? </span></h3>
+            </div>
+            <!-- // Calculator Result End -->
+
+
+            <!-- Calculator Buttons  Start -->
+            <div class="calculator-buttons">
+                <button type="button" class="print">Print</button>
+                <button type="button" class="clear">Clear</button>
+            </div>
+            <!-- Calculator Buttons  End -->
+        </div>
+    </div>
+    <!-- Main Calucator Area End -->
+
+    <!-- **** Java Script ***** -->
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
