@@ -121,15 +121,24 @@
      width: 90px;
      padding: 7px 14px;
      color: #444;
-     border: 1px solid #f1f0f1;
+     border: 1px solid#CECECE;
      text-align: center;
      font-size: 20px;
+ }
+ 
+ .calculator-input .valid:focus {
+     outline-color: green;
+ }
+ 
+ .calculator-input .invalid:focus {
+     outline-color: #9b1c31;
  }
  
  .calculator-input input:disabled {
      color: #9b1c31;
      background: #f1f0f1;
      font-weight: 700;
+     border-color: transparent;
  }
  /* Calculator Result */
  
