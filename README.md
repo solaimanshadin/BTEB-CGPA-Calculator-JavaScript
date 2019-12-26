@@ -4,7 +4,7 @@ It Calculate your final CGPA and grade according to any BTEB  regulations. You w
 
 ![BTEB CGPA Calculator Preview](/cgpa_calculator_preview.gif)
 
-## Demo [Calucate Your CGPA](http://github.io/bteb-cgpa)
+## Demo [Calucate Your CGPA](https://solaimanshadin.github.io/BTEB-CGPA-Calculator-JavaScript/)
 
 ## Whats Features  are you getting from this CGPA Calculator?
 
