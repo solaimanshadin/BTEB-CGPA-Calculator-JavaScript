@@ -25,7 +25,7 @@ clear.addEventListener('click', () => {
 const calculator_options = document.querySelectorAll('.calculator-options button');
 
 // Tigering and Higligting Active Option
-let selected_probidhan = 2018; //Setting 2018 probidhan as Default
+let selected_probidhan = 2016; //Setting 2016 probidhan as Default
 let selected_formula = [5, 5, 5, 10, 15, 20, 25, 15]; //Secuanical Array All semesters Percengenge 
 
 for (var i = 0, length = calculator_options.length; i < length; i++) {
