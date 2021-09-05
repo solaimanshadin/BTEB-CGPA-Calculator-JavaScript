@@ -1,3 +1,5 @@
+document.getElementById("current_year").innerText = new Date().getFullYear()
+
 // All inputs
 const inputs = document.querySelectorAll("input");
 let cgpa_array = [];
@@ -5,6 +7,7 @@ let cgpa_array = [];
 // Final Result Display  Selector
 const final_cgpa = document.querySelector(".final_cgpa");
 const final_grade = document.querySelector(".final_grade");
+
 
 // Action Buttons
 const clear = document.querySelector(".clear");
