@@ -30,7 +30,7 @@ const calculator_options = document.querySelectorAll(
 );
 
 // Triggering and highlighting active option
-let selected_probidhan = 2016; //Setting 2016 probidhan as Default
+let selected_probidhan = 2022; //Setting 2022 probidhan as Default
 let selected_formula = [5, 5, 5, 10, 15, 20, 25, 15]; // Sequential Array All semesters Percentage
 
 for (var i = 0, length = calculator_options.length; i < length; i++) {
@@ -39,7 +39,10 @@ for (var i = 0, length = calculator_options.length; i < length; i++) {
     selected_probidhan = e.target.textContent;
 
     //Triggering Formula for Selected Probidhadn
-    if (selected_probidhan == 2010) {
+    if (selected_probidhan == 2022) {
+      selected_formula = [5, 5, 10, 10, 20, 20, 20, 10];
+    }
+    else if (selected_probidhan == 2010) {
       selected_formula = [5, 5, 5, 15, 15, 20, 25, 10];
     } else {
       selected_formula = [5, 5, 5, 10, 15, 20, 25, 15];
